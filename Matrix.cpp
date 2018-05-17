@@ -282,6 +282,7 @@ Matrix_ops<T> Matrix_ops<T>::operator * (const Matrix_ops<T> &fdt) {
 			m3.array[i] = new T [fdt.cols];
 			for(int j = 0; j < fdt.cols; j++)
 			{
+				m3.array[i][j] = 0;
 				for(int k = 0; k < cols; ++k)
 				{
 					m3.array[i][j] += array[i][k] * fdt.array[k][j];
