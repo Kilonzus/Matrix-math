@@ -330,9 +330,8 @@ bool Matrix_ops<T>::operator == (const Matrix_ops<T> &da) const{
 FUNCTION NAME:     Matrix_ops<T> transpose()
 PURPOSE:           This functions is supposed to transpose a matrix
 RETURNS:           
-NOTES:             The usage is *matrix*.transpose() however i could not get this function to work
+NOTES:             The usage is *matrix*.transpose() i.e. Matrix1 = Matrix1.transpose
 ----------------------------------------------------------------------------- */
-/*
 template <class T>
 Matrix_ops<T> Matrix_ops<T>::transpose() {
 
@@ -347,15 +346,12 @@ Matrix_ops<T> Matrix_ops<T>::transpose() {
 		trans.array[i] = new T[rows];
 		for (int j = 0; j < rows; j++)
 		{
-			trans.array[i][j] = array[j][i]
-		;
+			trans.array[i][j] = array[j][i];
 		}
 //	cout << endl;
 	}
 	return trans;
 }
-
-*/
 
 
 
