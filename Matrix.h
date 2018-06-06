@@ -61,7 +61,7 @@ class Matrix_ops : public Matrix<T> {
 		Matrix_ops<T> operator - (const Matrix_ops<T> &);
 		Matrix_ops<T> operator * (const Matrix_ops<T> &);
 		bool operator == (const Matrix_ops<T> &) const;
-		//Matrix_ops<T> transpose();
+		Matrix_ops<T> transpose();
 		//Matrix_ops<T> inverse();
 		//Matriix_ops<T> eigenvalues();
 
