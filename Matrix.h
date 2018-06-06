@@ -11,6 +11,7 @@ MODIFICATION HISTORY:
 Author             Date           Modification(s)
 ----------------   -----------    ---------------
 Peter Kilonzo      2018-05-15     Version 1
+Peter Kilonzo      2018-06-01     Version 2
 ---------------------------------------------------------------------------- */
 #ifndef MATRIX_H
 #define MATRIX_H
